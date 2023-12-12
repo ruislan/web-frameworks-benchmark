@@ -15,7 +15,7 @@ These are the frameworks that I am currently using or I want to use in the futur
 the server will return a json data
 
 ```json
-{ hello: 'world' }
+{ "hello": "world" }
 ```
 
 ## Cmd
