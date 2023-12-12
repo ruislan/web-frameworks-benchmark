@@ -6,6 +6,7 @@ pnpm create hono node-hono-basic
 
 ## result
 
+```bash
 Running 30s test @ <http://localhost:6000>
   24 threads and 500 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -15,3 +16,4 @@ Running 30s test @ <http://localhost:6000>
   Socket errors: connect 0, read 2403, write 1, timeout 21
 Requests/sec:  23620.99
 Transfer/sec:      4.21MB
+```
