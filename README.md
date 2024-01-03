@@ -42,5 +42,6 @@ wrk -t 24 -c 500 -d 30s http://localhost:6000
 |rust| actix | 104463.27 | 12.45MB |
 |rust| ntex | 93931.86 | 11.20MB |
 |rust| rocket | 5372.75 | 1.30MB |
+|zig| zap | 101451.05 | 18.48MB |
 
 The result from rust-rocket wasn't very precise, because I don't know how to disable the logging.
