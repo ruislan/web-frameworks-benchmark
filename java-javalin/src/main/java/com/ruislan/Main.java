@@ -3,9 +3,12 @@ package com.ruislan;
 import io.javalin.Javalin;
 
 public class Main {
+    record JsonResult(String hello) {
+    }
+
     public static void main(String[] args) {
-        var app = Javalin.create(/*config*/)
-                .get("/", ctx -> ctx.json("{\"hello\", \"world\"}"))
+        Javalin.create()
+                .get("/", ctx -> ctx.json(new JsonResult("world")))
                 .start(6000);
     }
 }
