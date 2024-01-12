@@ -38,6 +38,11 @@ wrk -t 24 -c 500 -d 30s http://localhost:6000
 |java jdk17| vertx | 68630.89 | 5.76MB |
 |java jdk21| springboot | 33597.54 | 4.20MB |
 |java jdk21| javalin | 69716.47 | 8.38MB |
+|java jdk21| activej | 71402.06 | 8.65MB |
+|java jdk21| jooby undertow | 63742.41 | 8.27MB |
+|java jdk21| jooby netty | 75872.36 |  9.84MB |
+|java jdk21| jooby jetty | 60496.61 | 7.85MB |
+|java jdk21| ratpack | 38764.02 | 3.55MB |
 |kotlin jdk21 | ktor | 43983.76 | 7.80MB |
 |rust| actix | 104463.27 | 12.45MB |
 |rust| ntex | 93931.86 | 11.20MB |
