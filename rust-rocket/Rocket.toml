@@ -1,5 +1,6 @@
 [default]
 address = "127.0.0.1"
 port = 6000
-workers = 16
-max_blocking = 512
+workers = 8
+max_blocking = 2048
+log_level = "off"

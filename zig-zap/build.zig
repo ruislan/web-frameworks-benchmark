@@ -27,6 +27,7 @@ pub fn build(b: *std.Build) void {
     const zap = b.dependency("zap", .{
         .target = target,
         .optimize = optimize,
+        .openssl = false, // set to true to enable TLS support
     });
     exe.addModule("zap", zap.module("zap"));
     exe.linkLibrary(zap.artifact("facil.io"));
