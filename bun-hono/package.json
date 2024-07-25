@@ -4,9 +4,9 @@
     "prod": "bun run src/index.ts"
   },
   "dependencies": {
-    "hono": "^3.11.4"
+    "hono": "^3.12.12"
   },
   "devDependencies": {
-    "bun-types": "^1.0.7"
+    "bun-types": "^1.1.20"
   }
 }
